@@ -32,5 +32,5 @@ while True:
 
     time.sleep(20)
 
-if __name__ == '__main__':
-    eventlet.wsgi.server(eventlet.listen(('', 9900)), app)
+# if __name__ == '__main__':
+#     eventlet.wsgi.server(eventlet.listen(('', 9900)), app)
