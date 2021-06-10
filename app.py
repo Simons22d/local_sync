@@ -30,7 +30,7 @@ while True:
     except requests.exceptions.ConnectionError:
         log("Server not Reachaable")
 
-    time.sleep(300)
+    time.sleep(90)
 
 # if __name__ == '__main__':
 #     eventlet.wsgi.server(eventlet.listen(('', 9900)), app)
